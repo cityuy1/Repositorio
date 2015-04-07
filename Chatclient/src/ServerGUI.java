@@ -20,7 +20,7 @@ public class ServerGUI extends JFrame implements ActionListener, WindowListener 
 	
 	// server constructor that receive the port to listen to for connection as parameter
 	ServerGUI(int port) {
-		super("Test");
+		super("Martes");
 		server = null;
 		try {
 		     ClassLoader cl = this.getClass().getClassLoader();
