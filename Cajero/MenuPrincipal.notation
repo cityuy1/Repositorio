@@ -296,6 +296,16 @@
       <element xmi:type="uml:UseCase" href="MenuPrincipal.uml#_CenbkN97EeSget0XVts62Q"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Cenbkt97EeSget0XVts62Q" x="596" y="523"/>
     </children>
+    <children xmi:type="notation:Shape" xmi:id="_El24Ed9_EeSget0XVts62Q" type="2013">
+      <children xmi:type="notation:DecorationNode" xmi:id="_El24E99_EeSget0XVts62Q" type="5016"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_El24FN9_EeSget0XVts62Q" type="7009">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_El24Fd9_EeSget0XVts62Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_El24Ft9_EeSget0XVts62Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_El24F99_EeSget0XVts62Q"/>
+      </children>
+      <element xmi:type="uml:UseCase" href="MenuPrincipal.uml#_El24EN9_EeSget0XVts62Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_El24Et9_EeSget0XVts62Q" x="241" y="-29"/>
+    </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_4rF8Md7vEeSJivNOWC1q7g" name="diagram_compatibility_version" stringValue="1.0.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_4rF8Mt7vEeSJivNOWC1q7g"/>
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_4rF8M97vEeSJivNOWC1q7g">
