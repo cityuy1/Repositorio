@@ -171,5 +171,4 @@ Por último, la opción de IPs Bloqueadas permiten al usuario visualizar que IPs
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_CenbkN97EeSget0XVts62Q" name="Administrar IP Bloqueadas"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_FsE2EN97EeSget0XVts62Q" client="_CenbkN97EeSget0XVts62Q" supplier="_-ajwQN96EeSget0XVts62Q"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_El24EN9_EeSget0XVts62Q" name="asdad"/>
 </uml:Model>
