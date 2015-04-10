@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_I9bv8N-5EeSget0XVts62Q" type="PapyrusUMLSequenceDiagram" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_I9bv8d-5EeSget0XVts62Q" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_I9bv8t-5EeSget0XVts62Q" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_I9bv89-5EeSget0XVts62Q" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_KVzREN-5EeSget0XVts62Q" type="3009">
+        <children xmi:type="notation:DecorationNode" xmi:id="_KVz4IN-5EeSget0XVts62Q" type="5006"/>
+        <element xmi:type="uml:Comment" href="MenuAsientos.uml#_KVyqAN-5EeSget0XVts62Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KVzREd-5EeSget0XVts62Q" x="2" y="175"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_QAlCkN-5EeSget0XVts62Q" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_QAlCkt-5EeSget0XVts62Q" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_QAm3wN-5EeSget0XVts62Q" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_QAm3wd-5EeSget0XVts62Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QAm3wt-5EeSget0XVts62Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_sTi3AN-7EeSget0XVts62Q" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuAsientos.uml#_sTdXcd-7EeSget0XVts62Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sTi3Ad-7EeSget0XVts62Q" x="24" y="32" width="16" height="247"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuAsientos.uml#_QAkbgN-5EeSget0XVts62Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QAlCkd-5EeSget0XVts62Q" x="200" y="10" width="64" height="343"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_QzyoMN-5EeSget0XVts62Q" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_QzyoMt-5EeSget0XVts62Q" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_Qz0dYN-5EeSget0XVts62Q" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_Qz0dYd-5EeSget0XVts62Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Qz0dYt-5EeSget0XVts62Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="__Pgf0N-9EeSget0XVts62Q" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuAsientos.uml#__PeqoN-9EeSget0XVts62Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__Pgf0d-9EeSget0XVts62Q" x="30" y="37" width="16" height="49"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_FIE1sN--EeSget0XVts62Q" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuAsientos.uml#_FIDAgd--EeSget0XVts62Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FIE1sd--EeSget0XVts62Q" x="30" y="116" width="16" height="50"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuAsientos.uml#_QzyBIN-5EeSget0XVts62Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QzyoMd-5EeSget0XVts62Q" x="394" y="10" width="77" height="344"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_RRURsN-5EeSget0XVts62Q" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_RRU4wN-5EeSget0XVts62Q" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_RRWG4N-5EeSget0XVts62Q" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_RRWG4d-5EeSget0XVts62Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RRWG4t-5EeSget0XVts62Q"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_KAzfMN--EeSget0XVts62Q" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuAsientos.uml#_KAyREN--EeSget0XVts62Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KAzfMd--EeSget0XVts62Q" x="45" y="213" width="16" height="50"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuAsientos.uml#_RRTqoN-5EeSget0XVts62Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RRURsd-5EeSget0XVts62Q" x="586" y="10" width="107" height="336"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I9bv9N-5EeSget0XVts62Q"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="MenuAsientos.uml#_I9bI4N-5EeSget0XVts62Q"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_I9bv9d-5EeSget0XVts62Q"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_I9bv9t-5EeSget0XVts62Q" name="diagram_compatibility_version" stringValue="1.0.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_I9bv99-5EeSget0XVts62Q"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_I9bv-N-5EeSget0XVts62Q">
+    <owner xmi:type="uml:Model" href="MenuAsientos.uml#_I9XegN-5EeSget0XVts62Q"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="MenuAsientos.uml#_I9bI4N-5EeSget0XVts62Q"/>
+</notation:Diagram>

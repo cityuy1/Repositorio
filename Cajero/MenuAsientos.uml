@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_I9XegN-5EeSget0XVts62Q" name="model">
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_I9bI4N-5EeSget0XVts62Q" name="Interaction1">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_KVyqAN-5EeSget0XVts62Q">
+      <body>Usuario</body>
+    </ownedComment>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_QAkbgN-5EeSget0XVts62Q" name="Menú" coveredBy="_sTdXcN-7EeSget0XVts62Q _sTdXct-7EeSget0XVts62Q _sTdXcd-7EeSget0XVts62Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_QzyBIN-5EeSget0XVts62Q" name="Servidor" coveredBy="__PeDkN-9EeSget0XVts62Q __Peqod-9EeSget0XVts62Q __PeqoN-9EeSget0XVts62Q _FIDAgN--EeSget0XVts62Q _FIDAgt--EeSget0XVts62Q _FIDAgd--EeSget0XVts62Q"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_RRTqoN-5EeSget0XVts62Q" name="Base de Datos" coveredBy="_KAxqAN--EeSget0XVts62Q _KAyREd--EeSget0XVts62Q _KAyREN--EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sTdXcN-7EeSget0XVts62Q" name="ActionExecSpecStart" covered="_QAkbgN-5EeSget0XVts62Q" execution="_sTdXcd-7EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_sTdXcd-7EeSget0XVts62Q" name="ActionExecSpec" covered="_QAkbgN-5EeSget0XVts62Q" finish="_sTdXct-7EeSget0XVts62Q" start="_sTdXcN-7EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="__PeDkN-9EeSget0XVts62Q" name="ActionExecSpec0Start" covered="_QzyBIN-5EeSget0XVts62Q" execution="__PeqoN-9EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="__PeqoN-9EeSget0XVts62Q" name="ActionExecSpec0" covered="_QzyBIN-5EeSget0XVts62Q" finish="__Peqod-9EeSget0XVts62Q" start="__PeDkN-9EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="__Peqod-9EeSget0XVts62Q" name="ActionExecSpec0Finish" covered="_QzyBIN-5EeSget0XVts62Q" execution="__PeqoN-9EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_FIDAgN--EeSget0XVts62Q" name="ActionExecSpec1Start" covered="_QzyBIN-5EeSget0XVts62Q" execution="_FIDAgd--EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_FIDAgd--EeSget0XVts62Q" name="ActionExecSpec1" covered="_QzyBIN-5EeSget0XVts62Q" finish="_FIDAgt--EeSget0XVts62Q" start="_FIDAgN--EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_FIDAgt--EeSget0XVts62Q" name="ActionExecSpec1Finish" covered="_QzyBIN-5EeSget0XVts62Q" execution="_FIDAgd--EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_KAxqAN--EeSget0XVts62Q" name="ActionExecSpec2Start" covered="_RRTqoN-5EeSget0XVts62Q" execution="_KAyREN--EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_KAyREN--EeSget0XVts62Q" name="ActionExecSpec2" covered="_RRTqoN-5EeSget0XVts62Q" finish="_KAyREd--EeSget0XVts62Q" start="_KAxqAN--EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_KAyREd--EeSget0XVts62Q" name="ActionExecSpec2Finish" covered="_RRTqoN-5EeSget0XVts62Q" execution="_KAyREN--EeSget0XVts62Q"/>
+    <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_sTdXct-7EeSget0XVts62Q" name="ActionExecSpecFinish" covered="_QAkbgN-5EeSget0XVts62Q" execution="_sTdXcd-7EeSget0XVts62Q"/>
+  </packagedElement>
+</uml:Model>
