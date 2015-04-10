@@ -36,7 +36,7 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y_eBod-pEeSget0XVts62Q" x="30" y="94" width="16" height="50"/>
         </children>
         <element xmi:type="uml:Lifeline" href="MenuEstructuraKiosco.uml#_a1LA0N-pEeSget0XVts62Q"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1MO8d-pEeSget0XVts62Q" x="403" y="10" width="77" height="349"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_a1MO8d-pEeSget0XVts62Q" x="403" y="10" width="77" height="347"/>
       </children>
       <children xmi:type="notation:Shape" xmi:id="_bGWQYN-pEeSget0XVts62Q" type="3001">
         <children xmi:type="notation:DecorationNode" xmi:id="_bGWQYt-pEeSget0XVts62Q" type="5002"/>
