@@ -14,14 +14,16 @@ por entidades con un nivel jerárquico superior, así como realizar envío de me
   </ownedComment>
   <packagedElement xmi:type="uml:Actor" xmi:id="_zLoJMN73EeSJivNOWC1q7g" name="Usuario"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_2MBYEN73EeSJivNOWC1q7g" name="Selecciona Kiosco"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_4AN5kN73EeSJivNOWC1q7g" name="Ingresa a Modo Cajero"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_4AN5kN73EeSJivNOWC1q7g" name="Ingresa a Modo Cajero">
+    <extend xmi:type="uml:Extend" xmi:id="_f61pAN97EeSget0XVts62Q" extendedCase="_cz67YN97EeSget0XVts62Q" extensionLocation="_f6-y-d97EeSget0XVts62Q"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_-_q_AN73EeSJivNOWC1q7g" name="Búsqueda de Jugadores"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="__PKMgN73EeSJivNOWC1q7g" name="Administración de Jugadores">
-    <include xmi:type="uml:Include" xmi:id="_pnec8N74EeSJivNOWC1q7g" addition="_UaTUkN74EeSJivNOWC1q7g"/>
-    <include xmi:type="uml:Include" xmi:id="_qBth4N74EeSJivNOWC1q7g" addition="_WkwZ8N74EeSJivNOWC1q7g"/>
-    <include xmi:type="uml:Include" xmi:id="_qXTXYN74EeSJivNOWC1q7g" addition="_Vw9lgN74EeSJivNOWC1q7g"/>
-    <include xmi:type="uml:Include" xmi:id="_quRs8N74EeSJivNOWC1q7g" addition="_WOGNcN74EeSJivNOWC1q7g"/>
-    <include xmi:type="uml:Include" xmi:id="_rC8VYN74EeSJivNOWC1q7g" addition="_WA5e8N74EeSJivNOWC1q7g"/>
+    <include xmi:type="uml:Include" xmi:id="_pVN4wN97EeSget0XVts62Q" addition="_UaTUkN74EeSJivNOWC1q7g"/>
+    <include xmi:type="uml:Include" xmi:id="_p4x40N97EeSget0XVts62Q" addition="_WkwZ8N74EeSJivNOWC1q7g"/>
+    <include xmi:type="uml:Include" xmi:id="_qb4l4N97EeSget0XVts62Q" addition="_WOGNcN74EeSJivNOWC1q7g"/>
+    <include xmi:type="uml:Include" xmi:id="_rDA3UN97EeSget0XVts62Q" addition="_Vw9lgN74EeSJivNOWC1q7g"/>
+    <include xmi:type="uml:Include" xmi:id="_rgLUcN97EeSget0XVts62Q" addition="_WA5e8N74EeSJivNOWC1q7g"/>
   </packagedElement>
   <packagedElement xmi:type="uml:UseCase" xmi:id="__cqdAN73EeSJivNOWC1q7g" name="Mensajes de Entidad de Nivel Superior"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_KvA7AN74EeSJivNOWC1q7g" name="" memberEnd="_KvA7Ad74EeSJivNOWC1q7g _KvA7BN74EeSJivNOWC1q7g">
@@ -32,16 +34,6 @@ por entidades con un nivel jerárquico superior, así como realizar envío de me
     <ownedEnd xmi:type="uml:Property" xmi:id="_KvA7BN74EeSJivNOWC1q7g" name="ingresa a modo cajero" type="_4AN5kN73EeSJivNOWC1q7g" association="_KvA7AN74EeSJivNOWC1q7g">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KvA7Bd74EeSJivNOWC1q7g" value="1"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KvA7Bt74EeSJivNOWC1q7g" value="1"/>
-    </ownedEnd>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_LiIaAN74EeSJivNOWC1q7g" name="" memberEnd="_LiIaAd74EeSJivNOWC1q7g _LiIaBN74EeSJivNOWC1q7g">
-    <ownedEnd xmi:type="uml:Property" xmi:id="_LiIaAd74EeSJivNOWC1q7g" name="ingresa a modo cajero" type="_4AN5kN73EeSJivNOWC1q7g" association="_LiIaAN74EeSJivNOWC1q7g">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LiIaAt74EeSJivNOWC1q7g" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LiIaA974EeSJivNOWC1q7g" value="1"/>
-    </ownedEnd>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_LiIaBN74EeSJivNOWC1q7g" name="administración de jugadores" type="__PKMgN73EeSJivNOWC1q7g" association="_LiIaAN74EeSJivNOWC1q7g">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LiIaBd74EeSJivNOWC1q7g" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LiIaBt74EeSJivNOWC1q7g" value="1"/>
     </ownedEnd>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_NZ_TgN74EeSJivNOWC1q7g" name="" memberEnd="_NZ_Tgd74EeSJivNOWC1q7g _NZ_ThN74EeSJivNOWC1q7g">
@@ -64,12 +56,26 @@ por entidades con un nivel jerárquico superior, así como realizar envío de me
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OGZGht74EeSJivNOWC1q7g" value="1"/>
     </ownedEnd>
   </packagedElement>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_UaTUkN74EeSJivNOWC1q7g" name="Crear Jugador Nuevo"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vw9lgN74EeSJivNOWC1q7g" name="Compensación"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_WA5e8N74EeSJivNOWC1q7g" name="Ver Información del Jugador"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_WOGNcN74EeSJivNOWC1q7g" name="Retirar Dinero"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_WkwZ8N74EeSJivNOWC1q7g" name="Depositar Dinero"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_5thTcN74EeSJivNOWC1q7g" name="Visualizar Datos de Jugadores"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_UaTUkN74EeSJivNOWC1q7g" name="Crear Jugador Nuevo">
+    <extend xmi:type="uml:Extend" xmi:id="_0Yoi4N97EeSget0XVts62Q" extendedCase="_uERB0N97EeSget0XVts62Q" extensionLocation="_0YyT4t97EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_Vw9lgN74EeSJivNOWC1q7g" name="Compensación">
+    <extend xmi:type="uml:Extend" xmi:id="_22yAUN97EeSget0XVts62Q" extendedCase="_uERB0N97EeSget0XVts62Q" extensionLocation="_0YyT4t97EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WA5e8N74EeSJivNOWC1q7g" name="Ver Información del Jugador">
+    <extend xmi:type="uml:Extend" xmi:id="_3TfxgN97EeSget0XVts62Q" extendedCase="_uERB0N97EeSget0XVts62Q" extensionLocation="_0YyT4t97EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WOGNcN74EeSJivNOWC1q7g" name="Retirar Dinero">
+    <extend xmi:type="uml:Extend" xmi:id="_1-1rsN97EeSget0XVts62Q" extendedCase="_uERB0N97EeSget0XVts62Q" extensionLocation="_0YyT4t97EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_WkwZ8N74EeSJivNOWC1q7g" name="Depositar Dinero">
+    <extend xmi:type="uml:Extend" xmi:id="_1BZzEN97EeSget0XVts62Q" extendedCase="_uERB0N97EeSget0XVts62Q" extensionLocation="_0YyT4t97EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_5thTcN74EeSJivNOWC1q7g" name="Visualizar Datos de Jugadores">
+    <include xmi:type="uml:Include" xmi:id="_YXW0AN98EeSget0XVts62Q" addition="_KmLjIN98EeSget0XVts62Q"/>
+    <include xmi:type="uml:Include" xmi:id="_YyIrgN98EeSget0XVts62Q" addition="_O9bQMN98EeSget0XVts62Q"/>
+    <include xmi:type="uml:Include" xmi:id="_ZLu3QN98EeSget0XVts62Q" addition="_VUBl4N98EeSget0XVts62Q"/>
+  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="__4QXYN74EeSJivNOWC1q7g" name="" memberEnd="__4QXYd74EeSJivNOWC1q7g __4QXZN74EeSJivNOWC1q7g">
     <ownedEnd xmi:type="uml:Property" xmi:id="__4QXYd74EeSJivNOWC1q7g" name="búsqueda de jugadores" type="_-_q_AN73EeSJivNOWC1q7g" association="__4QXYN74EeSJivNOWC1q7g">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="__4QXYt74EeSJivNOWC1q7g" value="1"/>
@@ -112,4 +118,21 @@ por entidades con un nivel jerárquico superior, así como realizar envío de me
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g71Qlt76EeSJivNOWC1q7g" value="1"/>
     </ownedEnd>
   </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cz67YN97EeSget0XVts62Q" name="Verificación de Permisos">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_f6-y-d97EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_l98a8N97EeSget0XVts62Q" client="__PKMgN73EeSJivNOWC1q7g" supplier="_cz67YN97EeSget0XVts62Q"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_uERB0N97EeSget0XVts62Q" name="Error Debe Introducir Nombre de Jugador">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_0YyT4t97EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_KmLjIN98EeSget0XVts62Q" name="Por período de tiempo"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_O9bQMN98EeSget0XVts62Q" name="Por Kiosco"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_VUBl4N98EeSget0XVts62Q" name="Por Jugador">
+    <extend xmi:type="uml:Extend" xmi:id="_fqqCgN98EeSget0XVts62Q" extendedCase="_cYcD0N98EeSget0XVts62Q" extensionLocation="_fqzzgN98EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_ZzmIgN98EeSget0XVts62Q" name="Ver Todos los Jugadores"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_cYcD0N98EeSget0XVts62Q" name="Casilla &quot;Jugador&quot; en Blanco">
+    <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_fqzzgN98EeSget0XVts62Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_hPOzoN98EeSget0XVts62Q" client="_ZzmIgN98EeSget0XVts62Q" supplier="_cYcD0N98EeSget0XVts62Q"/>
 </uml:Model>
