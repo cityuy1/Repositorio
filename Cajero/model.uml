@@ -88,5 +88,4 @@ la IP del usuario será bloqueada por un tiempo determinado.</body>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_AOxF0N7sEeSJivNOWC1q7g" name="Bloqueo de IP 30 min"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_CiVD4N7sEeSJivNOWC1q7g" client="_AOxF0N7sEeSJivNOWC1q7g" supplier="_YSLQ8N7rEeSJivNOWC1q7g"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_De5Z0N7sEeSJivNOWC1q7g" client="_UYgC8N7mEeSJivNOWC1q7g" supplier="_vZMJcN7jEeSJivNOWC1q7g"/>
-  <packagedElement xmi:type="uml:UseCase" xmi:id="_u1e8AN9-EeSget0XVts62Q" name="Prueba"/>
 </uml:Model>
