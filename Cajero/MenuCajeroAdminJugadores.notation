@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_KxFPwuHmEeSiGpBbyul8WA" type="PapyrusUMLSequenceDiagram" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_KxFPw-HmEeSiGpBbyul8WA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_KxFPxOHmEeSiGpBbyul8WA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_KxFPxeHmEeSiGpBbyul8WA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_Lp68QeHmEeSiGpBbyul8WA" type="3009">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Lp68Q-HmEeSiGpBbyul8WA" type="5006"/>
+        <element xmi:type="uml:Comment" href="MenuCajeroAdminJugadores.uml#_Lp68QOHmEeSiGpBbyul8WA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Lp68QuHmEeSiGpBbyul8WA" x="-5" y="207"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NBi2geHmEeSiGpBbyul8WA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_NBi2g-HmEeSiGpBbyul8WA" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_NBi2hOHmEeSiGpBbyul8WA" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_NBi2heHmEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NBi2huHmEeSiGpBbyul8WA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_eBxyc-HoEeSiGpBbyul8WA" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuCajeroAdminJugadores.uml#_eBxyceHoEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_eBxydOHoEeSiGpBbyul8WA" x="24" y="30" width="16" height="370"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuCajeroAdminJugadores.uml#_NBi2gOHmEeSiGpBbyul8WA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NBi2guHmEeSiGpBbyul8WA" x="99" y="10" width="64" height="450"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_NWOGAeHmEeSiGpBbyul8WA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_NWOGA-HmEeSiGpBbyul8WA" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_NWOGBOHmEeSiGpBbyul8WA" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_NWOGBeHmEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWOGBuHmEeSiGpBbyul8WA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_fG9R0-HoEeSiGpBbyul8WA" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuCajeroAdminJugadores.uml#_fG9R0eHoEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fG9R1OHoEeSiGpBbyul8WA" x="30" y="29" width="16" height="50"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_iMOZoOHoEeSiGpBbyul8WA" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuCajeroAdminJugadores.uml#_iMFPseHoEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_iMOZoeHoEeSiGpBbyul8WA" x="30" y="110" width="16" height="179"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuCajeroAdminJugadores.uml#_NWOGAOHmEeSiGpBbyul8WA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NWOGAuHmEeSiGpBbyul8WA" x="421" y="10" width="77" height="450"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_Nk9FkeHmEeSiGpBbyul8WA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_Nk9Fk-HmEeSiGpBbyul8WA" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_NlGPgOHmEeSiGpBbyul8WA" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_NlGPgeHmEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NlGPguHmEeSiGpBbyul8WA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_yp_Mk-HoEeSiGpBbyul8WA" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuCajeroAdminJugadores.uml#_yp_MkeHoEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yp_MlOHoEeSiGpBbyul8WA" x="45" y="30" width="16" height="369"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuCajeroAdminJugadores.uml#_Nk9FkOHmEeSiGpBbyul8WA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Nk9FkuHmEeSiGpBbyul8WA" x="724" y="10" width="107" height="450"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KxFPxuHmEeSiGpBbyul8WA"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="MenuCajeroAdminJugadores.uml#_KxFPweHmEeSiGpBbyul8WA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KxFPx-HmEeSiGpBbyul8WA" x="-2" y="-1"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_KxFPyOHmEeSiGpBbyul8WA" name="diagram_compatibility_version" stringValue="1.0.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_KxFPyeHmEeSiGpBbyul8WA"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_KxFPyuHmEeSiGpBbyul8WA">
+    <owner xmi:type="uml:Model" href="MenuCajeroAdminJugadores.uml#_KxFPwOHmEeSiGpBbyul8WA"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="MenuCajeroAdminJugadores.uml#_KxFPweHmEeSiGpBbyul8WA"/>
+  <edges xmi:type="notation:Edge" xmi:id="_kY9-A-HoEeSiGpBbyul8WA" type="4004" source="_eBxyc-HoEeSiGpBbyul8WA" target="_fG9R0-HoEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kY9-B-HoEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kY9-COHoEeSiGpBbyul8WA" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kY9-CeHoEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kY9-CuHoEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_kY9-BOHoEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kY9-BeHoEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_kY9-C-HoEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroAdminJugadores.uml#_kY9-AOHoEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kY9-BuHoEeSiGpBbyul8WA" points="[0, 1, -242, 0]$[242, 1, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kZHvAOHoEeSiGpBbyul8WA" id="(0.9375,0.10540540540540541)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kZHvAeHoEeSiGpBbyul8WA" id="(0.0,0.8)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_sGcnEOHoEeSiGpBbyul8WA" type="4004" source="_iMOZoOHoEeSiGpBbyul8WA" target="_iMOZoOHoEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_sGcnFOHoEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sGcnFeHoEeSiGpBbyul8WA" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_sGcnFuHoEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_sGcnF-HoEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_sGcnEeHoEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_sGcnEuHoEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_sGcnGOHoEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroAdminJugadores.uml#_sGTdIOHoEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sGcnE-HoEeSiGpBbyul8WA" points="[0, -6, -16, -30]$[-60, -6, -76, -30]$[-60, 27, -76, 3]$[0, 27, -16, 3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sGcnHeHoEeSiGpBbyul8WA" id="(0.0,0.03910614525139665)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sGcnHuHoEeSiGpBbyul8WA" id="(1.0,0.20670391061452514)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_4ABdI-HoEeSiGpBbyul8WA" type="4004" source="_iMOZoOHoEeSiGpBbyul8WA" target="_eBxyc-HoEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_4ABdJ-HoEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4ABdKOHoEeSiGpBbyul8WA" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_4ABdKeHoEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_4ABdKuHoEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_4ABdJOHoEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_4ABdJeHoEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_4ABdK-HoEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroAdminJugadores.uml#_4ABdIOHoEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_4ABdJuHoEeSiGpBbyul8WA" points="[0, 7, 329, 0]$[-330, 8, -1, 1]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4AKnFOHoEeSiGpBbyul8WA" id="(0.0625,0.37988826815642457)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_4AKnFeHoEeSiGpBbyul8WA" id="(0.0625,0.4)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_996-8-HoEeSiGpBbyul8WA" type="4004" source="_iMOZoOHoEeSiGpBbyul8WA" target="_eBxyc-HoEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_996-9-HoEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_996--OHoEeSiGpBbyul8WA" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_996--eHoEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_996--uHoEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_996-9OHoEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_996-9eHoEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_996---HoEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroAdminJugadores.uml#_996-8OHoEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_996-9uHoEeSiGpBbyul8WA" points="[0, 0, 318, -11]$[-316, 64, 2, 53]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-Ev9OHoEeSiGpBbyul8WA" id="(0.0625,0.6536312849162011)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9-Ev9eHoEeSiGpBbyul8WA" id="(0.9375,0.5324324324324324)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_HgorUOHpEeSiGpBbyul8WA" type="4004" source="_iMOZoOHoEeSiGpBbyul8WA" target="_yp_Mk-HoEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_HgorVOHpEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HgorVeHpEeSiGpBbyul8WA" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_HgorVuHpEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_HgorV-HpEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_HgorUeHpEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_HgorUuHpEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_HgorWOHpEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroAdminJugadores.uml#_HgfhYOHpEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_HgorU-HpEeSiGpBbyul8WA" points="[0, 1, -207, 0]$[203, 78, -4, 77]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HgycUuHpEeSiGpBbyul8WA" id="(0.75,0.9106145251396648)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_HgycU-HpEeSiGpBbyul8WA" id="(0.25,0.6612466124661247)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_OGQ7g-HpEeSiGpBbyul8WA" type="4004" source="_yp_Mk-HoEeSiGpBbyul8WA" target="_eBxyc-HoEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_OGQ7h-HpEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OGQ7iOHpEeSiGpBbyul8WA" x="-147" y="-12"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_OGQ7ieHpEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_OGQ7iuHpEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_OGQ7hOHpEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_OGQ7heHpEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_OGQ7i-HpEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroAdminJugadores.uml#_OGQ7gOHpEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OGQ7huHpEeSiGpBbyul8WA" points="[0, 6, 612, 0]$[-611, 52, 1, 46]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OGaFcOHpEeSiGpBbyul8WA" id="(0.0625,0.7913279132791328)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OGaFceHpEeSiGpBbyul8WA" id="(0.75,0.7864864864864864)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_TcvQ8-HpEeSiGpBbyul8WA" type="4004" source="_yp_Mk-HoEeSiGpBbyul8WA" target="_eBxyc-HoEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TcvQ9-HpEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TcvQ-OHpEeSiGpBbyul8WA" x="-161" y="-11"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_TcvQ-eHpEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_TcvQ-uHpEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_TcvQ9OHpEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_TcvQ9eHpEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_TcvQ--HpEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroAdminJugadores.uml#_TcvQ8OHpEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_TcvQ9uHpEeSiGpBbyul8WA" points="[0, 0, 609, 0]$[-609, 20, 0, 20]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tc4a4OHpEeSiGpBbyul8WA" id="(0.0625,0.943089430894309)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Tc4a4eHpEeSiGpBbyul8WA" id="(0.9375,0.9459459459459459)"/>
+  </edges>
+</notation:Diagram>
