@@ -63,7 +63,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QtaWbeIJEeSdoqoZpz3JxQ"/>
     </children>
     <element xmi:type="uml:Class" href="DiagramaClases.uml#_Qs2VsOIJEeSdoqoZpz3JxQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QtZIQeIJEeSdoqoZpz3JxQ" x="139" y="49"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QtZIQeIJEeSdoqoZpz3JxQ" x="54" y="204"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_SUN8IOIJEeSdoqoZpz3JxQ" type="2008">
     <children xmi:type="notation:DecorationNode" xmi:id="_SUOjMOIJEeSdoqoZpz3JxQ" type="5029"/>
@@ -126,7 +126,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SUPKSeIJEeSdoqoZpz3JxQ"/>
     </children>
     <element xmi:type="uml:Class" href="DiagramaClases.uml#_SUMG8OIJEeSdoqoZpz3JxQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SUN8IeIJEeSdoqoZpz3JxQ" x="369" y="31"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SUN8IeIJEeSdoqoZpz3JxQ" x="293" y="44"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_T3iwEOIJEeSdoqoZpz3JxQ" type="2008">
     <children xmi:type="notation:DecorationNode" xmi:id="_T3iwEuIJEeSdoqoZpz3JxQ" type="5029"/>
@@ -185,7 +185,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T3j-MOIJEeSdoqoZpz3JxQ"/>
     </children>
     <element xmi:type="uml:Class" href="DiagramaClases.uml#_T3g64OIJEeSdoqoZpz3JxQ"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T3iwEeIJEeSdoqoZpz3JxQ" x="587" y="55"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T3iwEeIJEeSdoqoZpz3JxQ" x="523" y="198"/>
   </children>
   <styles xmi:type="notation:StringValueStyle" xmi:id="_EdqLEeIAEeSdoqoZpz3JxQ" name="diagram_compatibility_version" stringValue="1.0.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_EdqLEuIAEeSdoqoZpz3JxQ"/>
