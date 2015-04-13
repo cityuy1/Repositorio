@@ -2,22 +2,94 @@
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g">
   <uml:Model xmi:id="_EaF5sOIAEeSdoqoZpz3JxQ" name="model">
     <packagedElement xmi:type="uml:Class" xmi:id="_Qs2VsOIJEeSdoqoZpz3JxQ" name="Usuario">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_10VlsOIJEeSdoqoZpz3JxQ" name="Nombre" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_cxD5AOIKEeSdoqoZpz3JxQ" name="Contraseña" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXttwOIKEeSdoqoZpz3JxQ" name="Dirección" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_jaGpkOIKEeSdoqoZpz3JxQ" name="Email" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_ongikOIKEeSdoqoZpz3JxQ" name="Teléfono" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_10VlsOIJEeSdoqoZpz3JxQ" name="Nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cxD5AOIKEeSdoqoZpz3JxQ" name="Contraseña" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXttwOIKEeSdoqoZpz3JxQ" name="Dirección" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jaGpkOIKEeSdoqoZpz3JxQ" name="Email" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ongikOIKEeSdoqoZpz3JxQ" name="Teléfono" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rHRP8OISEeSdoqoZpz3JxQ" name="País" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_r9tvwOISEeSdoqoZpz3JxQ" name="Ciudad" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sjgkcOISEeSdoqoZpz3JxQ" name="Móvil" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_--PaYOISEeSdoqoZpz3JxQ" name="Congelado" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_SUMG8OIJEeSdoqoZpz3JxQ" name="Kiosco">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_EGdLAOILEeSdoqoZpz3JxQ" name="Nombre" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_kKdLoOIOEeSdoqoZpz3JxQ" name="Dirección" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_EGdLAOILEeSdoqoZpz3JxQ" name="Nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kKdLoOIOEeSdoqoZpz3JxQ" name="Dirección" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NxSfUOIQEeSdoqoZpz3JxQ" name="Email" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_P8i18OIQEeSdoqoZpz3JxQ" name="Teléfono" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_46goQOIQEeSdoqoZpz3JxQ" name="País" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5WWPsOIQEeSdoqoZpz3JxQ" name="Ciudad" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_5ry7QOIQEeSdoqoZpz3JxQ" name="Idioma" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_hMuSYOISEeSdoqoZpz3JxQ" name="Móvil" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_lDkBEOISEeSdoqoZpz3JxQ" name="Fax" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-s1hUOISEeSdoqoZpz3JxQ" name="Congelado" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_T3g64OIJEeSdoqoZpz3JxQ" name="Jugador">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_GC-iEOILEeSdoqoZpz3JxQ" name="Nombre" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_HeBjwOILEeSdoqoZpz3JxQ" name="Apellido" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_IpTrIOILEeSdoqoZpz3JxQ" name="Dirección" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_O9OgQOILEeSdoqoZpz3JxQ" name="Email" visibility="private"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Q7-r8OILEeSdoqoZpz3JxQ" name="Teléfono" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GC-iEOILEeSdoqoZpz3JxQ" name="Nombre" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HeBjwOILEeSdoqoZpz3JxQ" name="Apellido" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IpTrIOILEeSdoqoZpz3JxQ" name="Dirección" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_O9OgQOILEeSdoqoZpz3JxQ" name="Email" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Q7-r8OILEeSdoqoZpz3JxQ" name="Teléfono" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vI8VoOISEeSdoqoZpz3JxQ" name="País" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vXhkMOISEeSdoqoZpz3JxQ" name="Ciudad" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vlNa4OISEeSdoqoZpz3JxQ" name="Móvil" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_-ZMMkOISEeSdoqoZpz3JxQ" name="Congelado" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_94u58OIJEeSdoqoZpz3JxQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_95Uv0OIJEeSdoqoZpz3JxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
