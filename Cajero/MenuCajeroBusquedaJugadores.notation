@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_oVq2YuHjEeSiGpBbyul8WA" type="PapyrusUMLSequenceDiagram" name="NewDiagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_oVq2Y-HjEeSiGpBbyul8WA" type="2001">
+    <children xmi:type="notation:DecorationNode" xmi:id="_oVq2ZOHjEeSiGpBbyul8WA" type="5001"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_oVq2ZeHjEeSiGpBbyul8WA" type="7001">
+      <children xmi:type="notation:Shape" xmi:id="_zoHbAeHjEeSiGpBbyul8WA" type="3009">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zoHbA-HjEeSiGpBbyul8WA" type="5006"/>
+        <element xmi:type="uml:Comment" href="MenuCajeroBusquedaJugadores.uml#_zoHbAOHjEeSiGpBbyul8WA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zoHbAuHjEeSiGpBbyul8WA" x="9" y="176"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_08w5weHjEeSiGpBbyul8WA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_08w5w-HjEeSiGpBbyul8WA" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_08w5xOHjEeSiGpBbyul8WA" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_08w5xeHjEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_08w5xuHjEeSiGpBbyul8WA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_JNLe8uHkEeSiGpBbyul8WA" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuCajeroBusquedaJugadores.uml#_JNLe8OHkEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JNLe8-HkEeSiGpBbyul8WA" x="24" y="21" width="16" height="283"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuCajeroBusquedaJugadores.uml#_08w5wOHjEeSiGpBbyul8WA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_08w5wuHjEeSiGpBbyul8WA" x="183" y="10" width="64" height="388"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_1R41MOHjEeSiGpBbyul8WA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1R41MuHjEeSiGpBbyul8WA" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_1R41M-HjEeSiGpBbyul8WA" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_1R41NOHjEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1R41NeHjEeSiGpBbyul8WA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_J1MhMOHkEeSiGpBbyul8WA" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuCajeroBusquedaJugadores.uml#_J05mQeHkEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J1MhMeHkEeSiGpBbyul8WA" x="30" y="21" width="16" height="50"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_47zsw-HkEeSiGpBbyul8WA" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuCajeroBusquedaJugadores.uml#_47zsweHkEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_47zsxOHkEeSiGpBbyul8WA" x="30" y="92" width="16" height="107"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuCajeroBusquedaJugadores.uml#_1RvrQOHjEeSiGpBbyul8WA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1R41MeHjEeSiGpBbyul8WA" x="398" y="10" width="77" height="388"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_1kV3IeHjEeSiGpBbyul8WA" type="3001">
+        <children xmi:type="notation:DecorationNode" xmi:id="_1kV3I-HjEeSiGpBbyul8WA" type="5002"/>
+        <children xmi:type="notation:BasicCompartment" xmi:id="_1kV3JOHjEeSiGpBbyul8WA" type="compartment_shape_display">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_1kV3JeHjEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1kV3JuHjEeSiGpBbyul8WA"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2A8eI-HkEeSiGpBbyul8WA" type="3006">
+          <element xmi:type="uml:ActionExecutionSpecification" href="MenuCajeroBusquedaJugadores.uml#_2A8eIeHkEeSiGpBbyul8WA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_2A8eJOHkEeSiGpBbyul8WA" x="45" y="20" width="16" height="288"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="MenuCajeroBusquedaJugadores.uml#_1kV3IOHjEeSiGpBbyul8WA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1kV3IuHjEeSiGpBbyul8WA" x="655" y="10" width="107" height="388"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oVq2ZuHjEeSiGpBbyul8WA"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="MenuCajeroBusquedaJugadores.uml#_oVq2YeHjEeSiGpBbyul8WA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oVq2Z-HjEeSiGpBbyul8WA"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_oVq2aOHjEeSiGpBbyul8WA" name="diagram_compatibility_version" stringValue="1.0.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_oVq2aeHjEeSiGpBbyul8WA"/>
+  <styles xmi:type="style:PapyrusViewStyle" xmi:id="_oVq2auHjEeSiGpBbyul8WA">
+    <owner xmi:type="uml:Model" href="MenuCajeroBusquedaJugadores.uml#_oVq2YOHjEeSiGpBbyul8WA"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="MenuCajeroBusquedaJugadores.uml#_oVq2YeHjEeSiGpBbyul8WA"/>
+  <edges xmi:type="notation:Edge" xmi:id="_v88UU-HkEeSiGpBbyul8WA" type="4004" source="_JNLe8uHkEeSiGpBbyul8WA" target="_J1MhMOHkEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_v88UV-HkEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v88UWOHkEeSiGpBbyul8WA" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_v88UWeHkEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_v88UWuHkEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_v88UVOHkEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_v88UVeHkEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_v88UW-HkEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroBusquedaJugadores.uml#_v88UUOHkEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_v88UVuHkEeSiGpBbyul8WA" points="[0, 1, -177, 0]$[174, 6, -3, 5]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v9GFVOHkEeSiGpBbyul8WA" id="(0.9375,0.12014134275618374)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_v9GFVeHkEeSiGpBbyul8WA" id="(0.1875,0.68)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_7g8jA-HkEeSiGpBbyul8WA" type="4004" source="_47zsw-HkEeSiGpBbyul8WA" target="_47zsw-HkEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7g8jB-HkEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7g8jCOHkEeSiGpBbyul8WA" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_7g8jCeHkEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_7g8jCuHkEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_7g8jBOHkEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_7g8jBeHkEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_7g8jC-HkEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroBusquedaJugadores.uml#_7g8jAOHkEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7g8jBuHkEeSiGpBbyul8WA" points="[-4, -2, -3, -45]$[-48, -2, -47, -45]$[-48, 40, -47, -3]$[-4, 40, -3, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7hFs9OHkEeSiGpBbyul8WA" id="(0.25,0.12149532710280374)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7hFs9eHkEeSiGpBbyul8WA" id="(0.0,0.4953271028037383)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_IVRxI-HlEeSiGpBbyul8WA" type="4004" source="_47zsw-HkEeSiGpBbyul8WA" target="_2A8eI-HkEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_IVRxJ-HlEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IVRxKOHlEeSiGpBbyul8WA" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_IVRxKeHlEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_IVRxKuHlEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_IVRxJOHlEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_IVRxJeHlEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_IVRxK-HlEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroBusquedaJugadores.uml#_IVRxIOHlEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IVRxJuHlEeSiGpBbyul8WA" points="[0, 3, -184, 0]$[184, 61, 0, 58]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IVRxMOHlEeSiGpBbyul8WA" id="(0.75,0.8317757009345794)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_IVRxMeHlEeSiGpBbyul8WA" id="(0.5625,0.5590277777777778)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_SGIAIeHlEeSiGpBbyul8WA" type="4004" source="_2A8eI-HkEeSiGpBbyul8WA" target="_JNLe8uHkEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_SGIAJeHlEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SGIAJuHlEeSiGpBbyul8WA" x="-98" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_SGIAJ-HlEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_SGIAKOHlEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_SGIAIuHlEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_SGIAI-HlEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_SGIAKeHlEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroBusquedaJugadores.uml#_SF-2MOHlEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_SGIAJOHlEeSiGpBbyul8WA" points="[0, 1, 493, 0]$[-493, 30, 0, 29]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SGIALuHlEeSiGpBbyul8WA" id="(0.0,0.7361111111111112)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SGIAL-HlEeSiGpBbyul8WA" id="(0.5,0.7455830388692579)"/>
+  </edges>
+  <edges xmi:type="notation:Edge" xmi:id="_aNfv4-HlEeSiGpBbyul8WA" type="4004" source="_2A8eI-HkEeSiGpBbyul8WA" target="_JNLe8uHkEeSiGpBbyul8WA">
+    <children xmi:type="notation:DecorationNode" xmi:id="_aNfv5-HlEeSiGpBbyul8WA" type="6002">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aNfv6OHlEeSiGpBbyul8WA" x="-98" y="-14"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_aNfv6eHlEeSiGpBbyul8WA" type="6009">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_aNfv6uHlEeSiGpBbyul8WA" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_aNfv5OHlEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_aNfv5eHlEeSiGpBbyul8WA"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_aNfv6-HlEeSiGpBbyul8WA"/>
+    <element xmi:type="uml:Message" href="MenuCajeroBusquedaJugadores.uml#_aNfv4OHlEeSiGpBbyul8WA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aNfv5uHlEeSiGpBbyul8WA" points="[0, 1, 489, 0]$[-489, 27, 0, 26]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aNpg5OHlEeSiGpBbyul8WA" id="(0.125,0.875)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aNpg5eHlEeSiGpBbyul8WA" id="(0.75,0.8869257950530035)"/>
+  </edges>
+</notation:Diagram>
