@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g">
+  <uml:Model xmi:id="_EaF5sOIAEeSdoqoZpz3JxQ" name="model">
+    <packagedElement xmi:type="uml:Class" xmi:id="_Qs2VsOIJEeSdoqoZpz3JxQ" name="Usuario">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_10VlsOIJEeSdoqoZpz3JxQ" name="Nombre" visibility="private" isStatic="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cxD5AOIKEeSdoqoZpz3JxQ" name="Contraseña" visibility="private" isStatic="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXttwOIKEeSdoqoZpz3JxQ" name="Dirección" visibility="private" isStatic="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jaGpkOIKEeSdoqoZpz3JxQ" name="Email" visibility="private" isStatic="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ongikOIKEeSdoqoZpz3JxQ" name="Teléfono" visibility="private" isStatic="true"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_SUMG8OIJEeSdoqoZpz3JxQ" name="Kiosco"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T3g64OIJEeSdoqoZpz3JxQ" name="Jugador"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_94u58OIJEeSdoqoZpz3JxQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_95Uv0OIJEeSdoqoZpz3JxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_95Uv0eIJEeSdoqoZpz3JxQ" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_Jr7bMeIKEeSdoqoZpz3JxQ" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+  <ActionLanguage:TextualRepresentation xmi:id="_g9mK4eIKEeSdoqoZpz3JxQ" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+</xmi:XMI>
