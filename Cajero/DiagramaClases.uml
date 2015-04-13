@@ -2,14 +2,23 @@
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g">
   <uml:Model xmi:id="_EaF5sOIAEeSdoqoZpz3JxQ" name="model">
     <packagedElement xmi:type="uml:Class" xmi:id="_Qs2VsOIJEeSdoqoZpz3JxQ" name="Usuario">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_10VlsOIJEeSdoqoZpz3JxQ" name="Nombre" visibility="private" isStatic="true"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_cxD5AOIKEeSdoqoZpz3JxQ" name="Contraseña" visibility="private" isStatic="true"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXttwOIKEeSdoqoZpz3JxQ" name="Dirección" visibility="private" isStatic="true"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_jaGpkOIKEeSdoqoZpz3JxQ" name="Email" visibility="private" isStatic="true"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_ongikOIKEeSdoqoZpz3JxQ" name="Teléfono" visibility="private" isStatic="true"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_10VlsOIJEeSdoqoZpz3JxQ" name="Nombre" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cxD5AOIKEeSdoqoZpz3JxQ" name="Contraseña" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_eXttwOIKEeSdoqoZpz3JxQ" name="Dirección" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jaGpkOIKEeSdoqoZpz3JxQ" name="Email" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ongikOIKEeSdoqoZpz3JxQ" name="Teléfono" visibility="private"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_SUMG8OIJEeSdoqoZpz3JxQ" name="Kiosco"/>
-    <packagedElement xmi:type="uml:Class" xmi:id="_T3g64OIJEeSdoqoZpz3JxQ" name="Jugador"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_SUMG8OIJEeSdoqoZpz3JxQ" name="Kiosco">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_EGdLAOILEeSdoqoZpz3JxQ" name="Nombre" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kKdLoOIOEeSdoqoZpz3JxQ" name="Dirección" visibility="private"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T3g64OIJEeSdoqoZpz3JxQ" name="Jugador">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GC-iEOILEeSdoqoZpz3JxQ" name="Nombre" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HeBjwOILEeSdoqoZpz3JxQ" name="Apellido" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IpTrIOILEeSdoqoZpz3JxQ" name="Dirección" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_O9OgQOILEeSdoqoZpz3JxQ" name="Email" visibility="private"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Q7-r8OILEeSdoqoZpz3JxQ" name="Teléfono" visibility="private"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_94u58OIJEeSdoqoZpz3JxQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_95Uv0OIJEeSdoqoZpz3JxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
