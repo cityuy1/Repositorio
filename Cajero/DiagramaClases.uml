@@ -29,6 +29,12 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_--PaYOISEeSdoqoZpz3JxQ" name="Congelado" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_3kztsOIdEeSdoqoZpz3JxQ" name="Estado" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HtlvIOIeEeSdoqoZpz3JxQ" name="LoginActivo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_SUMG8OIJEeSdoqoZpz3JxQ" name="Kiosco">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_EGdLAOILEeSdoqoZpz3JxQ" name="Nombre" visibility="private">
@@ -61,6 +67,9 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_-s1hUOISEeSdoqoZpz3JxQ" name="Congelado" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_kICTUOIaEeSdoqoZpz3JxQ" name="Saldo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_T3g64OIJEeSdoqoZpz3JxQ" name="Jugador">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_GC-iEOILEeSdoqoZpz3JxQ" name="Nombre" visibility="private">
@@ -90,6 +99,35 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_-ZMMkOISEeSdoqoZpz3JxQ" name="Congelado" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_jttHwOIaEeSdoqoZpz3JxQ" name="Saldo" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="__Ob44OIaEeSdoqoZpz3JxQ" name="Fecha de Nacimiento" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LmNt4OIbEeSdoqoZpz3JxQ" name="Género" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Lz5kkOIbEeSdoqoZpz3JxQ" name="Código Postal" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_MXTzoOIbEeSdoqoZpz3JxQ" name="Ocupación" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_CfP0QOIZEeSdoqoZpz3JxQ" name="Reporte">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ41kOIZEeSdoqoZpz3JxQ" name="Attribute1"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FX3nMOIZEeSdoqoZpz3JxQ" name="Attribute2"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FqxVEOIZEeSdoqoZpz3JxQ" name="Attribute3"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_F-jzwOIZEeSdoqoZpz3JxQ" name="Attribute4"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GWzUoOIZEeSdoqoZpz3JxQ" name="Attribute5"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_HmQKUOIZEeSdoqoZpz3JxQ" name="Asiento">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KNw_IOIZEeSdoqoZpz3JxQ" name="Attribute1"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_KeSHYOIZEeSdoqoZpz3JxQ" name="Attribute2"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Kv-7YOIZEeSdoqoZpz3JxQ" name="Attribute3"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_K-bAAOIZEeSdoqoZpz3JxQ" name="Attribute4"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LL9FsOIZEeSdoqoZpz3JxQ" name="Attribute5"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_94u58OIJEeSdoqoZpz3JxQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_95Uv0OIJEeSdoqoZpz3JxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
