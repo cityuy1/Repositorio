@@ -82,6 +82,10 @@
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Be_bceK5EeSveqk-Wt58Cw" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Be_bcuK5EeSveqk-Wt58Cw" value="*"/>
       </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_mOE9EOK6EeSveqk-Wt58Cw" name="jugador" type="_T3g64OIJEeSdoqoZpz3JxQ" association="_mOOuEOK6EeSveqk-Wt58Cw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mOE9EeK6EeSveqk-Wt58Cw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mOE9EuK6EeSveqk-Wt58Cw" value="*"/>
+      </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_Djh4UOK0EeSveqk-Wt58Cw" name="Crear"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_D1_hUOK0EeSveqk-Wt58Cw" name="Modificar"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_EGai8OK0EeSveqk-Wt58Cw" name="Listar"/>
@@ -130,10 +134,6 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_MXTzoOIbEeSdoqoZpz3JxQ" name="Ocupación" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_4jkOAOK3EeSveqk-Wt58Cw" name="kiosco" type="_SUMG8OIJEeSdoqoZpz3JxQ" association="_4jkOA-K3EeSveqk-Wt58Cw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4jkOAeK3EeSveqk-Wt58Cw" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4jkOAuK3EeSveqk-Wt58Cw" value="*"/>
-      </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_8tbmYOK3EeSveqk-Wt58Cw" name="reporte Jugador" type="_CfP0QOIZEeSdoqoZpz3JxQ" association="_8tbmY-K3EeSveqk-Wt58Cw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8tbmYeK3EeSveqk-Wt58Cw" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_8tbmYuK3EeSveqk-Wt58Cw" value="*"/>
@@ -145,6 +145,10 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_B8wyAOK4EeSveqk-Wt58Cw" name="transacción" type="_Ky1K4OKkEeSveqk-Wt58Cw" association="_B8wyA-K4EeSveqk-Wt58Cw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_B8wyAeK4EeSveqk-Wt58Cw" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_B8wyAuK4EeSveqk-Wt58Cw" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_es8t8OK6EeSveqk-Wt58Cw" name="asiento" type="_ycBWEOK5EeSveqk-Wt58Cw" association="_es8t8-K6EeSveqk-Wt58Cw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_es8t8eK6EeSveqk-Wt58Cw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_es8t8uK6EeSveqk-Wt58Cw" value="*"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_JYuKEOK0EeSveqk-Wt58Cw" name="Crear"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_JmaAwOK0EeSveqk-Wt58Cw" name="Modificar"/>
@@ -220,12 +224,6 @@
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_SE_WoOK0EeSveqk-Wt58Cw" name="Listar"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_4jkOA-K3EeSveqk-Wt58Cw" memberEnd="_4jkOBOK3EeSveqk-Wt58Cw _4jkOAOK3EeSveqk-Wt58Cw">
-      <ownedEnd xmi:type="uml:Property" xmi:id="_4jkOBOK3EeSveqk-Wt58Cw" name="jugador" type="_T3g64OIJEeSdoqoZpz3JxQ" association="_4jkOA-K3EeSveqk-Wt58Cw">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_4jkOBeK3EeSveqk-Wt58Cw" value="1"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_4jkOBuK3EeSveqk-Wt58Cw" value="1"/>
-      </ownedEnd>
-    </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_8tbmY-K3EeSveqk-Wt58Cw" memberEnd="_8tbmZOK3EeSveqk-Wt58Cw _8tbmYOK3EeSveqk-Wt58Cw">
       <ownedEnd xmi:type="uml:Property" xmi:id="_8tbmZOK3EeSveqk-Wt58Cw" name="jugador" type="_T3g64OIJEeSdoqoZpz3JxQ" association="_8tbmY-K3EeSveqk-Wt58Cw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_8tbmZeK3EeSveqk-Wt58Cw" value="1"/>
@@ -254,6 +252,39 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_Be_bdOK5EeSveqk-Wt58Cw" name="kiosco" type="_SUMG8OIJEeSdoqoZpz3JxQ" association="_Be_bc-K5EeSveqk-Wt58Cw">
         <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Be_bdeK5EeSveqk-Wt58Cw" value="1"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Be_bduK5EeSveqk-Wt58Cw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ycBWEOK5EeSveqk-Wt58Cw" name="Asiento">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HIFVcOK6EeSveqk-Wt58Cw" name="Fecha" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_HcUgEOK6EeSveqk-Wt58Cw" name="Nombre Jugador" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Hvgh0OK6EeSveqk-Wt58Cw" name="Nombre Kiosco" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IABqEOK6EeSveqk-Wt58Cw" name="Nombre Administrador" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IPpacOK6EeSveqk-Wt58Cw" name="Plataforma" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZiYGgOK6EeSveqk-Wt58Cw" name="Entidad Empresarial" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_dnBnsOK6EeSveqk-Wt58Cw" name="Listar"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_es8t8-K6EeSveqk-Wt58Cw" memberEnd="_es8t9OK6EeSveqk-Wt58Cw _es8t8OK6EeSveqk-Wt58Cw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_es8t9OK6EeSveqk-Wt58Cw" name="jugador" type="_T3g64OIJEeSdoqoZpz3JxQ" association="_es8t8-K6EeSveqk-Wt58Cw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_es8t9eK6EeSveqk-Wt58Cw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_es8t9uK6EeSveqk-Wt58Cw" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_mOOuEOK6EeSveqk-Wt58Cw" memberEnd="_mOOuEeK6EeSveqk-Wt58Cw _mOE9EOK6EeSveqk-Wt58Cw">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_mOOuEeK6EeSveqk-Wt58Cw" name="kiosco" type="_SUMG8OIJEeSdoqoZpz3JxQ" association="_mOOuEOK6EeSveqk-Wt58Cw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_mOOuEuK6EeSveqk-Wt58Cw" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mOOuE-K6EeSveqk-Wt58Cw" value="1"/>
       </ownedEnd>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_94u58OIJEeSdoqoZpz3JxQ">
