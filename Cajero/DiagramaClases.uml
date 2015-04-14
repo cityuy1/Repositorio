@@ -127,7 +127,7 @@
       <ownedOperation xmi:type="uml:Operation" xmi:id="_J5J9oOK0EeSveqk-Wt58Cw" name="Listar"/>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_KMDEcOK0EeSveqk-Wt58Cw" name="Congelar"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Class" xmi:id="_CfP0QOIZEeSdoqoZpz3JxQ" name="Reporte">
+    <packagedElement xmi:type="uml:Class" xmi:id="_CfP0QOIZEeSdoqoZpz3JxQ" name="Reporte Jugador">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ41kOIZEeSdoqoZpz3JxQ" name="Nombre de Usuario" visibility="private">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -178,8 +178,6 @@
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
       </ownedAttribute>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_SWZPsOK0EeSveqk-Wt58Cw" name="Listar"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_VhLJoOK0EeSveqk-Wt58Cw" name="Crear"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_XGCOoOK0EeSveqk-Wt58Cw" name="Modificar"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_Ky1K4OKkEeSveqk-Wt58Cw" name="Transacción">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_N4svoOKkEeSveqk-Wt58Cw" name="Fecha" visibility="private">
