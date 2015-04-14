@@ -116,11 +116,21 @@
       </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_CfP0QOIZEeSdoqoZpz3JxQ" name="Reporte">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ41kOIZEeSdoqoZpz3JxQ" name="Attribute1"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_FX3nMOIZEeSdoqoZpz3JxQ" name="Attribute2"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_FqxVEOIZEeSdoqoZpz3JxQ" name="Attribute3"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_F-jzwOIZEeSdoqoZpz3JxQ" name="Attribute4"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_GWzUoOIZEeSdoqoZpz3JxQ" name="Attribute5"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ41kOIZEeSdoqoZpz3JxQ" name="Nombre de Usuario" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FX3nMOIZEeSdoqoZpz3JxQ" name="Fecha de Registro" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FqxVEOIZEeSdoqoZpz3JxQ" name="Kiosco" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_F-jzwOIZEeSdoqoZpz3JxQ" name="Administrador" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GWzUoOIZEeSdoqoZpz3JxQ" name="Fecha" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EDate"/>
+      </ownedAttribute>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_HmQKUOIZEeSdoqoZpz3JxQ" name="Asiento">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_KNw_IOIZEeSdoqoZpz3JxQ" name="Attribute1"/>
