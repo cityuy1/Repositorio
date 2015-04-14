@@ -139,6 +139,25 @@
       <ownedAttribute xmi:type="uml:Property" xmi:id="_K-bAAOIZEeSdoqoZpz3JxQ" name="Attribute4"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_LL9FsOIZEeSdoqoZpz3JxQ" name="Attribute5"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_pjq3UOKjEeSveqk-Wt58Cw" name="Sesión">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rwG5sOKjEeSveqk-Wt58Cw" name="Fecha"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_sRIjIOKjEeSveqk-Wt58Cw" name="Tipo de Cliente"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_soDOUOKjEeSveqk-Wt58Cw" name="Número de Serie"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_uZaeQOKjEeSveqk-Wt58Cw" name="Número de Juegos"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_vaIUYOKjEeSveqk-Wt58Cw" name="Apuestas Totales"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ymZcEOKjEeSveqk-Wt58Cw" name="Ingresos Totales"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zLlz0OKjEeSveqk-Wt58Cw" name="Premios Mayores"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_zhwREOKjEeSveqk-Wt58Cw" name="Dirección IP Remota"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Ky1K4OKkEeSveqk-Wt58Cw" name="Transacción">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_N4svoOKkEeSveqk-Wt58Cw" name="Fecha"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_O4q-4OKkEeSveqk-Wt58Cw" name="Tipo"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PJLgEOKkEeSveqk-Wt58Cw" name="Plataforma"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_PZZtYOKkEeSveqk-Wt58Cw" name="Método"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Pokx0OKkEeSveqk-Wt58Cw" name="Cantidad"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_QatZYOKkEeSveqk-Wt58Cw" name="Estado"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RTsP0OKkEeSveqk-Wt58Cw" name="Información"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_94u58OIJEeSdoqoZpz3JxQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_95Uv0OIJEeSdoqoZpz3JxQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_sYse0YZLEeKyw49uR6nx3g"/>
