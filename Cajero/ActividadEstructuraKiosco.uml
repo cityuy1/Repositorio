@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_gCIHEOT9EeSD5fncXYVXHg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_gCONsOT9EeSD5fncXYVXHg" name="Activity1" node="_x7-LkOT_EeSD5fncXYVXHg _z-n_0OT_EeSD5fncXYVXHg _7asv0OT_EeSD5fncXYVXHg _PyAAIOUAEeSD5fncXYVXHg _QpsdIOUAEeSD5fncXYVXHg _TRQVQOUAEeSD5fncXYVXHg _XOQ9YOUAEeSD5fncXYVXHg _YvEBwOUAEeSD5fncXYVXHg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_c3nLgOUAEeSD5fncXYVXHg" target="_z-n_0OT_EeSD5fncXYVXHg" source="_x7-LkOT_EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d6LbwOUAEeSD5fncXYVXHg" target="_7asv0OT_EeSD5fncXYVXHg" source="_z-n_0OT_EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gZcTgOUAEeSD5fncXYVXHg" target="_QpsdIOUAEeSD5fncXYVXHg" source="_7asv0OT_EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jP-bwOUAEeSD5fncXYVXHg" name="Posee Permisos de Modificación" target="_PyAAIOUAEeSD5fncXYVXHg" source="_QpsdIOUAEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kbU0kOUAEeSD5fncXYVXHg" name="No Posee Permisos de Modificación" target="_TRQVQOUAEeSD5fncXYVXHg" source="_QpsdIOUAEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_oYDI0OUAEeSD5fncXYVXHg" target="_XOQ9YOUAEeSD5fncXYVXHg" source="_PyAAIOUAEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ppZb8OUAEeSD5fncXYVXHg" target="_XOQ9YOUAEeSD5fncXYVXHg" source="_TRQVQOUAEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_r_gXsOUAEeSD5fncXYVXHg" target="_YvEBwOUAEeSD5fncXYVXHg" source="_XOQ9YOUAEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_x7-LkOT_EeSD5fncXYVXHg" name="InitialNode1" outgoing="_c3nLgOUAEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_z-n_0OT_EeSD5fncXYVXHg" name="Usuario Solicita ver Árbol" incoming="_c3nLgOUAEeSD5fncXYVXHg" outgoing="_d6LbwOUAEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_7asv0OT_EeSD5fncXYVXHg" name="Verificar Permisos de Usuario" incoming="_d6LbwOUAEeSD5fncXYVXHg" outgoing="_gZcTgOUAEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_PyAAIOUAEeSD5fncXYVXHg" name="Se Muestra Árbol con Opciones de Modificar" incoming="_jP-bwOUAEeSD5fncXYVXHg" outgoing="_oYDI0OUAEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_QpsdIOUAEeSD5fncXYVXHg" name="MergeNode1" incoming="_gZcTgOUAEeSD5fncXYVXHg" outgoing="_jP-bwOUAEeSD5fncXYVXHg _kbU0kOUAEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TRQVQOUAEeSD5fncXYVXHg" name="Se Muestra Árbol sin Opciones de Modificar" incoming="_kbU0kOUAEeSD5fncXYVXHg" outgoing="_ppZb8OUAEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_XOQ9YOUAEeSD5fncXYVXHg" name="MergeNode2" incoming="_oYDI0OUAEeSD5fncXYVXHg _ppZb8OUAEeSD5fncXYVXHg" outgoing="_r_gXsOUAEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_YvEBwOUAEeSD5fncXYVXHg" name="ActivityFinalNode1" incoming="_r_gXsOUAEeSD5fncXYVXHg"/>
+  </packagedElement>
+</uml:Model>
