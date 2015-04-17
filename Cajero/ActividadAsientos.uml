@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Mv3kgOUDEeSD5fncXYVXHg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_Mv3kgeUDEeSD5fncXYVXHg" name="Activity1" node="_Hi_agOUEEeSD5fncXYVXHg _NCV_IOUEEeSD5fncXYVXHg _Q3uVQOUEEeSD5fncXYVXHg _TKZigOUEEeSD5fncXYVXHg _UPWYYOUEEeSD5fncXYVXHg _WVoIYOUEEeSD5fncXYVXHg _e_I74OUEEeSD5fncXYVXHg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_zphgQOUEEeSD5fncXYVXHg" target="_NCV_IOUEEeSD5fncXYVXHg" source="_Hi_agOUEEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0pUwYOUEEeSD5fncXYVXHg" target="_Q3uVQOUEEeSD5fncXYVXHg" source="_NCV_IOUEEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1mjNoOUEEeSD5fncXYVXHg" target="_WVoIYOUEEeSD5fncXYVXHg" source="_Q3uVQOUEEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_sf3ggOUFEeSD5fncXYVXHg" name="Datos Correctos y Encontrados" target="_TKZigOUEEeSD5fncXYVXHg" source="_WVoIYOUEEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uUmNgOUFEeSD5fncXYVXHg" name="Datos Incorrectos o No Encontrados" target="_UPWYYOUEEeSD5fncXYVXHg" source="_WVoIYOUEEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-tGtAOUFEeSD5fncXYVXHg" target="_e_I74OUEEeSD5fncXYVXHg" source="_TKZigOUEEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_iXiwMOUGEeSD5fncXYVXHg" target="_NCV_IOUEEeSD5fncXYVXHg" source="_UPWYYOUEEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_Hi_agOUEEeSD5fncXYVXHg" name="InitialNode1" outgoing="_zphgQOUEEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NCV_IOUEEeSD5fncXYVXHg" name="Usuario Selecciona Filtros y Solicita Datos" incoming="_zphgQOUEEeSD5fncXYVXHg _iXiwMOUGEeSD5fncXYVXHg" outgoing="_0pUwYOUEEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Q3uVQOUEEeSD5fncXYVXHg" name="Búsqueda de Datos Solicitados" incoming="_0pUwYOUEEeSD5fncXYVXHg" outgoing="_1mjNoOUEEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_TKZigOUEEeSD5fncXYVXHg" name="Datos Mostrados en Pantalla" incoming="_sf3ggOUFEeSD5fncXYVXHg" outgoing="_-tGtAOUFEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_UPWYYOUEEeSD5fncXYVXHg" name="Error: Datos No Encontrados" incoming="_uUmNgOUFEeSD5fncXYVXHg" outgoing="_iXiwMOUGEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_WVoIYOUEEeSD5fncXYVXHg" name="MergeNode1" incoming="_1mjNoOUEEeSD5fncXYVXHg" outgoing="_sf3ggOUFEeSD5fncXYVXHg _uUmNgOUFEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_e_I74OUEEeSD5fncXYVXHg" name="ActivityFinalNode1" incoming="_-tGtAOUFEeSD5fncXYVXHg"/>
+  </packagedElement>
+</uml:Model>
