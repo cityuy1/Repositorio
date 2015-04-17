@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HWYdsOULEeSD5fncXYVXHg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_HWYdseULEeSD5fncXYVXHg" name="Activity1" node="_a3gegOUMEeSD5fncXYVXHg _k757oOUMEeSD5fncXYVXHg _EVU1kOUNEeSD5fncXYVXHg _Eygg0OUNEeSD5fncXYVXHg">
+    <node xmi:type="uml:InitialNode" xmi:id="_a3gegOUMEeSD5fncXYVXHg" name="InitialNode1"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_k757oOUMEeSD5fncXYVXHg" name="Usuario ingresa archivo CSV y selecciona opciones"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_EVU1kOUNEeSD5fncXYVXHg" name="OpaqueAction1"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Eygg0OUNEeSD5fncXYVXHg" name="OpaqueAction2"/>
+  </packagedElement>
+</uml:Model>
