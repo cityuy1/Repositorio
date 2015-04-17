@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_wubcwOUzEeSD5fncXYVXHg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_wubcweUzEeSD5fncXYVXHg" name="Activity1" node="_ciE0AOU6EeSD5fncXYVXHg _dLI_IOU6EeSD5fncXYVXHg _eCL74OU6EeSD5fncXYVXHg _gE9E4OU6EeSD5fncXYVXHg _mFr4QOU6EeSD5fncXYVXHg _s2UekOU6EeSD5fncXYVXHg _KIbtwOU7EeSD5fncXYVXHg _Nq3SsOU7EeSD5fncXYVXHg _VxolgOU7EeSD5fncXYVXHg _YapPIOU7EeSD5fncXYVXHg _aixZQOU7EeSD5fncXYVXHg _awTe8OU7EeSD5fncXYVXHg _w0K-wOU7EeSD5fncXYVXHg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lKxvMOU6EeSD5fncXYVXHg" target="_dLI_IOU6EeSD5fncXYVXHg" source="_ciE0AOU6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pr_QkOU6EeSD5fncXYVXHg" name="No Posee Permisos Necesarios" target="_gE9E4OU6EeSD5fncXYVXHg" source="_mFr4QOU6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_xZLlwOU6EeSD5fncXYVXHg" target="_s2UekOU6EeSD5fncXYVXHg" source="_dLI_IOU6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yD4IkOU6EeSD5fncXYVXHg" target="_mFr4QOU6EeSD5fncXYVXHg" source="_s2UekOU6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__5Ou0OU6EeSD5fncXYVXHg" name="Posee Permisos" target="_eCL74OU6EeSD5fncXYVXHg" source="_mFr4QOU6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_SJZTgOU7EeSD5fncXYVXHg" target="_Nq3SsOU7EeSD5fncXYVXHg" source="_eCL74OU6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_dHTykOU7EeSD5fncXYVXHg" target="_VxolgOU7EeSD5fncXYVXHg" source="_Nq3SsOU7EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_d7YT0OU7EeSD5fncXYVXHg" target="_YapPIOU7EeSD5fncXYVXHg" source="_VxolgOU7EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fTJ_EOU7EeSD5fncXYVXHg" name="Error al procesar la Acción" target="_awTe8OU7EeSD5fncXYVXHg" source="_YapPIOU7EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ib21YOU7EeSD5fncXYVXHg" name="Acción Procesada con Éxito" target="_aixZQOU7EeSD5fncXYVXHg" source="_YapPIOU7EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_0bzz0OU7EeSD5fncXYVXHg" target="_w0K-wOU7EeSD5fncXYVXHg" source="_aixZQOU7EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_09b6MOU7EeSD5fncXYVXHg" target="_KIbtwOU7EeSD5fncXYVXHg" source="_w0K-wOU7EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4ii_sOU7EeSD5fncXYVXHg" target="_dLI_IOU6EeSD5fncXYVXHg" source="_gE9E4OU6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_ciE0AOU6EeSD5fncXYVXHg" name="InitialNode1" outgoing="_lKxvMOU6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_dLI_IOU6EeSD5fncXYVXHg" name="Usuario Ingresa a Menú de IP Bloqueadas" incoming="_lKxvMOU6EeSD5fncXYVXHg _4ii_sOU7EeSD5fncXYVXHg" outgoing="_xZLlwOU6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_eCL74OU6EeSD5fncXYVXHg" name="Lista de IP Bloqueadas y Acciones mostradas en pantalla" incoming="__5Ou0OU6EeSD5fncXYVXHg" outgoing="_SJZTgOU7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_gE9E4OU6EeSD5fncXYVXHg" name="Mensaje de Error: No Autorizado" incoming="_pr_QkOU6EeSD5fncXYVXHg" outgoing="_4ii_sOU7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_mFr4QOU6EeSD5fncXYVXHg" name="MergeNode1" incoming="_yD4IkOU6EeSD5fncXYVXHg" outgoing="_pr_QkOU6EeSD5fncXYVXHg __5Ou0OU6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_s2UekOU6EeSD5fncXYVXHg" name="Verificar Permisos del Usuario" incoming="_xZLlwOU6EeSD5fncXYVXHg" outgoing="_yD4IkOU6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_KIbtwOU7EeSD5fncXYVXHg" name="ActivityFinalNode1" incoming="_09b6MOU7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Nq3SsOU7EeSD5fncXYVXHg" name="Usuario Selecciona Acción" incoming="_SJZTgOU7EeSD5fncXYVXHg" outgoing="_dHTykOU7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_VxolgOU7EeSD5fncXYVXHg" name="Acción Procesada" incoming="_dHTykOU7EeSD5fncXYVXHg" outgoing="_d7YT0OU7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_YapPIOU7EeSD5fncXYVXHg" name="MergeNode2" incoming="_d7YT0OU7EeSD5fncXYVXHg" outgoing="_fTJ_EOU7EeSD5fncXYVXHg _ib21YOU7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_aixZQOU7EeSD5fncXYVXHg" name="Datos Actualizados en Servidor" incoming="_ib21YOU7EeSD5fncXYVXHg" outgoing="_0bzz0OU7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_awTe8OU7EeSD5fncXYVXHg" name="Mensaje de Error" incoming="_fTJ_EOU7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_w0K-wOU7EeSD5fncXYVXHg" name="Mensaje de Operación Exitosa" incoming="_0bzz0OU7EeSD5fncXYVXHg" outgoing="_09b6MOU7EeSD5fncXYVXHg"/>
+  </packagedElement>
+</uml:Model>
