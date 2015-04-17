@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Jcg-YOT4EeSD5fncXYVXHg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_JgiiwOT4EeSD5fncXYVXHg" name="Activity1" node="_cAU30OT4EeSD5fncXYVXHg _3tQ48OT4EeSD5fncXYVXHg _6h35IOT5EeSD5fncXYVXHg _9q3qYOT5EeSD5fncXYVXHg _SMn3MOT6EeSD5fncXYVXHg _YIXc4OT6EeSD5fncXYVXHg _pGtNUOT6EeSD5fncXYVXHg _vcr38OT6EeSD5fncXYVXHg _-IEHQOT6EeSD5fncXYVXHg _Dj3ooOT7EeSD5fncXYVXHg _mVO5UOT8EeSD5fncXYVXHg _AXVJQOT9EeSD5fncXYVXHg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nirrQOT5EeSD5fncXYVXHg" target="_3tQ48OT4EeSD5fncXYVXHg" source="_cAU30OT4EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_8sFt8OT5EeSD5fncXYVXHg" target="_6h35IOT5EeSD5fncXYVXHg" source="_3tQ48OT4EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="__swCkOT5EeSD5fncXYVXHg" target="_9q3qYOT5EeSD5fncXYVXHg" source="_6h35IOT5EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gd9O0OT6EeSD5fncXYVXHg" name="Datos Correctos" target="_SMn3MOT6EeSD5fncXYVXHg" source="_9q3qYOT5EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ng2p0OT6EeSD5fncXYVXHg" target="_YIXc4OT6EeSD5fncXYVXHg" source="_SMn3MOT6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qsXjkOT6EeSD5fncXYVXHg" target="_pGtNUOT6EeSD5fncXYVXHg" source="_YIXc4OT6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_4MHtQOT6EeSD5fncXYVXHg" name="Datos Incorrectos" target="_vcr38OT6EeSD5fncXYVXHg" source="_9q3qYOT5EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_VWFGAOT7EeSD5fncXYVXHg" target="_Dj3ooOT7EeSD5fncXYVXHg" source="_vcr38OT6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_WJrGIOT7EeSD5fncXYVXHg" target="_-IEHQOT6EeSD5fncXYVXHg" source="_Dj3ooOT7EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_rQjZQOT7EeSD5fncXYVXHg" name="No es Tercer Consecutivo" target="_3tQ48OT4EeSD5fncXYVXHg" source="_-IEHQOT6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yjdwwOT8EeSD5fncXYVXHg" name="Tercer Error Consecutivo sin Bloqueo Reciente" target="_mVO5UOT8EeSD5fncXYVXHg" source="_-IEHQOT6EeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_EJkEwOT9EeSD5fncXYVXHg" name="Tercer Error Consecutivo con Bloqueo Reciente" target="_AXVJQOT9EeSD5fncXYVXHg" source="_-IEHQOT6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_cAU30OT4EeSD5fncXYVXHg" name="InitialNode1" outgoing="_nirrQOT5EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_3tQ48OT4EeSD5fncXYVXHg" name="Usuario Ingresa Nombre y Contraseña" incoming="_nirrQOT5EeSD5fncXYVXHg _rQjZQOT7EeSD5fncXYVXHg" outgoing="_8sFt8OT5EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_6h35IOT5EeSD5fncXYVXHg" name="Verificar Usuario" incoming="_8sFt8OT5EeSD5fncXYVXHg" outgoing="__swCkOT5EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_9q3qYOT5EeSD5fncXYVXHg" name="MergeNode1" incoming="__swCkOT5EeSD5fncXYVXHg" outgoing="_gd9O0OT6EeSD5fncXYVXHg _4MHtQOT6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_SMn3MOT6EeSD5fncXYVXHg" name="Se muestra Menú Principal" incoming="_gd9O0OT6EeSD5fncXYVXHg" outgoing="_ng2p0OT6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YIXc4OT6EeSD5fncXYVXHg" name="Usuario Ingresado en el Sistema" incoming="_ng2p0OT6EeSD5fncXYVXHg" outgoing="_qsXjkOT6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_pGtNUOT6EeSD5fncXYVXHg" name="ActivityFinalNode1" incoming="_qsXjkOT6EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_vcr38OT6EeSD5fncXYVXHg" name="Mensaje de Error" incoming="_4MHtQOT6EeSD5fncXYVXHg" outgoing="_VWFGAOT7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_-IEHQOT6EeSD5fncXYVXHg" name="MergeNode2" incoming="_WJrGIOT7EeSD5fncXYVXHg" outgoing="_rQjZQOT7EeSD5fncXYVXHg _yjdwwOT8EeSD5fncXYVXHg _EJkEwOT9EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Dj3ooOT7EeSD5fncXYVXHg" name="Verificar Tercer Error Consecutivo" incoming="_VWFGAOT7EeSD5fncXYVXHg" outgoing="_WJrGIOT7EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_mVO5UOT8EeSD5fncXYVXHg" name="Bloqueo de IP 3 min" incoming="_yjdwwOT8EeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_AXVJQOT9EeSD5fncXYVXHg" name="Bloqueo de IP 30min" incoming="_EJkEwOT9EeSD5fncXYVXHg"/>
+  </packagedElement>
+</uml:Model>
