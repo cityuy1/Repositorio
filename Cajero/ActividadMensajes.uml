@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Ibtq4OUHEeSD5fncXYVXHg" name="model">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_Ibtq4eUHEeSD5fncXYVXHg" name="Activity1" node="_iBgZUOUHEeSD5fncXYVXHg _FuSwcOUJEeSD5fncXYVXHg _GlgsUOUJEeSD5fncXYVXHg _L_yjsOUJEeSD5fncXYVXHg _M_NZUOUJEeSD5fncXYVXHg _NjQhkOUJEeSD5fncXYVXHg _OwaRMOUJEeSD5fncXYVXHg _bd53gOUJEeSD5fncXYVXHg _zlWYoOUJEeSD5fncXYVXHg _0IKx0OUJEeSD5fncXYVXHg _4hBocOUJEeSD5fncXYVXHg _8jR88OUJEeSD5fncXYVXHg _9x9WkOUJEeSD5fncXYVXHg _CEbRUOUKEeSD5fncXYVXHg _DLF-cOUKEeSD5fncXYVXHg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_jXitQOUJEeSD5fncXYVXHg" target="_FuSwcOUJEeSD5fncXYVXHg" source="_iBgZUOUHEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_lbVxAOUJEeSD5fncXYVXHg" target="_GlgsUOUJEeSD5fncXYVXHg" source="_FuSwcOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mGiqIOUJEeSD5fncXYVXHg" target="_L_yjsOUJEeSD5fncXYVXHg" source="_GlgsUOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_mzjhIOUJEeSD5fncXYVXHg" name="Datos de Destinatario Correctos" target="_M_NZUOUJEeSD5fncXYVXHg" source="_L_yjsOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_qhnHQOUJEeSD5fncXYVXHg" name="Datos de Destinatario Incorrectos" target="_NjQhkOUJEeSD5fncXYVXHg" source="_L_yjsOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_tkQY4OUJEeSD5fncXYVXHg" target="_bd53gOUJEeSD5fncXYVXHg" source="_M_NZUOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ujrOgOUJEeSD5fncXYVXHg" target="_OwaRMOUJEeSD5fncXYVXHg" source="_bd53gOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_vQBXIOUJEeSD5fncXYVXHg" target="_FuSwcOUJEeSD5fncXYVXHg" source="_NjQhkOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HRvDsOUKEeSD5fncXYVXHg" target="_0IKx0OUJEeSD5fncXYVXHg" source="_zlWYoOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_HxBAsOUKEeSD5fncXYVXHg" target="_4hBocOUJEeSD5fncXYVXHg" source="_0IKx0OUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IWZlsOUKEeSD5fncXYVXHg" target="_8jR88OUJEeSD5fncXYVXHg" source="_4hBocOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IzfKUOUKEeSD5fncXYVXHg" name="Éxito" target="_9x9WkOUJEeSD5fncXYVXHg" source="_8jR88OUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_KJOOMOUKEeSD5fncXYVXHg" name="Error" target="_DLF-cOUKEeSD5fncXYVXHg" source="_8jR88OUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_LLgKkOUKEeSD5fncXYVXHg" target="_CEbRUOUKEeSD5fncXYVXHg" source="_9x9WkOUJEeSD5fncXYVXHg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_L9kgsOUKEeSD5fncXYVXHg" target="_0IKx0OUJEeSD5fncXYVXHg" source="_DLF-cOUKEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_iBgZUOUHEeSD5fncXYVXHg" name="InitialNode1" outgoing="_jXitQOUJEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_FuSwcOUJEeSD5fncXYVXHg" name="Usuario ingresa datos y envia Mensaje" incoming="_jXitQOUJEeSD5fncXYVXHg _vQBXIOUJEeSD5fncXYVXHg" outgoing="_lbVxAOUJEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_GlgsUOUJEeSD5fncXYVXHg" name="Verificar Datos de Envío" incoming="_lbVxAOUJEeSD5fncXYVXHg" outgoing="_mGiqIOUJEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_L_yjsOUJEeSD5fncXYVXHg" name="DecisionNode1" incoming="_mGiqIOUJEeSD5fncXYVXHg" outgoing="_mzjhIOUJEeSD5fncXYVXHg _qhnHQOUJEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_M_NZUOUJEeSD5fncXYVXHg" name="Notificar Envío Exitoso" incoming="_mzjhIOUJEeSD5fncXYVXHg" outgoing="_tkQY4OUJEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NjQhkOUJEeSD5fncXYVXHg" name="Notificación de Error en Envío" incoming="_qhnHQOUJEeSD5fncXYVXHg" outgoing="_vQBXIOUJEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_OwaRMOUJEeSD5fncXYVXHg" name="ActivityFinalNode1" incoming="_ujrOgOUJEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bd53gOUJEeSD5fncXYVXHg" name="Mensaje Recibido por Destinatario" incoming="_tkQY4OUJEeSD5fncXYVXHg" outgoing="_ujrOgOUJEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_zlWYoOUJEeSD5fncXYVXHg" name="InitialNode2" outgoing="_HRvDsOUKEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_0IKx0OUJEeSD5fncXYVXHg" name="Usuario Solicita Ver Mensaje" incoming="_HRvDsOUKEeSD5fncXYVXHg _L9kgsOUKEeSD5fncXYVXHg" outgoing="_HxBAsOUKEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_4hBocOUJEeSD5fncXYVXHg" name="Verifica Integridad de Datos" incoming="_HxBAsOUKEeSD5fncXYVXHg" outgoing="_IWZlsOUKEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_8jR88OUJEeSD5fncXYVXHg" name="DecisionNode2" incoming="_IWZlsOUKEeSD5fncXYVXHg" outgoing="_IzfKUOUKEeSD5fncXYVXHg _KJOOMOUKEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9x9WkOUJEeSD5fncXYVXHg" name="Mensaje Mostrado en Pantalla" incoming="_IzfKUOUKEeSD5fncXYVXHg" outgoing="_LLgKkOUKEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_CEbRUOUKEeSD5fncXYVXHg" name="ActivityFinalNode2" incoming="_LLgKkOUKEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_DLF-cOUKEeSD5fncXYVXHg" name="Error: Mensaje no Disponible" incoming="_KJOOMOUKEeSD5fncXYVXHg" outgoing="_L9kgsOUKEeSD5fncXYVXHg"/>
+  </packagedElement>
+</uml:Model>
