@@ -9,7 +9,7 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_-tGtAOUFEeSD5fncXYVXHg" target="_e_I74OUEEeSD5fncXYVXHg" source="_TKZigOUEEeSD5fncXYVXHg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_iXiwMOUGEeSD5fncXYVXHg" target="_NCV_IOUEEeSD5fncXYVXHg" source="_UPWYYOUEEeSD5fncXYVXHg"/>
     <node xmi:type="uml:InitialNode" xmi:id="_Hi_agOUEEeSD5fncXYVXHg" name="InitialNode1" outgoing="_zphgQOUEEeSD5fncXYVXHg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_NCV_IOUEEeSD5fncXYVXHg" name="Usuario Selecciona Filtros y Solicita Datos" incoming="_zphgQOUEEeSD5fncXYVXHg _iXiwMOUGEeSD5fncXYVXHg" outgoing="_0pUwYOUEEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_NCV_IOUEEeSD5fncXYVXHg" name="Usuario Selecciona Filtros y Solicita " incoming="_zphgQOUEEeSD5fncXYVXHg _iXiwMOUGEeSD5fncXYVXHg" outgoing="_0pUwYOUEEeSD5fncXYVXHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Q3uVQOUEEeSD5fncXYVXHg" name="Búsqueda de Datos Solicitados" incoming="_0pUwYOUEEeSD5fncXYVXHg" outgoing="_1mjNoOUEEeSD5fncXYVXHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_TKZigOUEEeSD5fncXYVXHg" name="Datos Mostrados en Pantalla" incoming="_sf3ggOUFEeSD5fncXYVXHg" outgoing="_-tGtAOUFEeSD5fncXYVXHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_UPWYYOUEEeSD5fncXYVXHg" name="Error: Datos No Encontrados" incoming="_uUmNgOUFEeSD5fncXYVXHg" outgoing="_iXiwMOUGEeSD5fncXYVXHg"/>
