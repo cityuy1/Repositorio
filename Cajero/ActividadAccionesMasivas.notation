@@ -109,7 +109,7 @@
   <styles xmi:type="notation:StringValueStyle" xmi:id="_HWYdxeULEeSD5fncXYVXHg" name="diagram_compatibility_version" stringValue="1.0.0"/>
   <styles xmi:type="notation:DiagramStyle" xmi:id="_HWYdxuULEeSD5fncXYVXHg"/>
   <styles xmi:type="style:PapyrusViewStyle" xmi:id="_HWYdx-ULEeSD5fncXYVXHg">
-    <owner xmi:type="uml:Model" href="ActividadAcciMasivas.uml#_HWYdsOULEeSD5fncXYVXHg"/>
+    <owner xmi:type="uml:Model" href="ActividadAccionesMasivas.uml#_HWYdsOULEeSD5fncXYVXHg"/>
   </styles>
   <element xmi:type="uml:Activity" href="ActividadAccionesMasivas.uml#_HWYdseULEeSD5fncXYVXHg"/>
   <edges xmi:type="notation:Connector" xmi:id="_HFdF8eUwEeSD5fncXYVXHg" type="4004" source="_a3gegeUMEeSD5fncXYVXHg" target="_k8ACQOUMEeSD5fncXYVXHg">

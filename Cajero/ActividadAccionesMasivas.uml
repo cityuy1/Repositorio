@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_HWYdsOULEeSD5fncXYVXHg" name="model">
-  <packagedElement xmi:type="uml:Activity" xmi:id="_HWYdseULEeSD5fncXYVXHg" name="Activity1" node="_a3gegOUMEeSD5fncXYVXHg _k757oOUMEeSD5fncXYVXHg _EVU1kOUNEeSD5fncXYVXHg _Eygg0OUNEeSD5fncXYVXHg _2Y5pEOUvEeSD5fncXYVXHg _Abz4cOUwEeSD5fncXYVXHg _tJe2sOUwEeSD5fncXYVXHg _zqDAsOUwEeSD5fncXYVXHg _1Nko8OUwEeSD5fncXYVXHg _Rz7lYOUxEeSD5fncXYVXHg _cXhf8OUxEeSD5fncXYVXHg">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_HWYdseULEeSD5fncXYVXHg" name="Activity1" node="_a3gegOUMEeSD5fncXYVXHg _k757oOUMEeSD5fncXYVXHg _EVU1kOUNEeSD5fncXYVXHg _Eygg0OUNEeSD5fncXYVXHg _2Y5pEOUvEeSD5fncXYVXHg _Abz4cOUwEeSD5fncXYVXHg _tJe2sOUwEeSD5fncXYVXHg _zqDAsOUwEeSD5fncXYVXHg _1Nko8OUwEeSD5fncXYVXHg _Rz7lYOUxEeSD5fncXYVXHg _cXhf8OUxEeSD5fncXYVXHg _mJao4OeDEeSuheWLNFrMfA">
     <edge xmi:type="uml:ControlFlow" xmi:id="_HFdF8OUwEeSD5fncXYVXHg" target="_k757oOUMEeSD5fncXYVXHg" source="_a3gegOUMEeSD5fncXYVXHg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_IJcSgOUwEeSD5fncXYVXHg" target="_2Y5pEOUvEeSD5fncXYVXHg" source="_k757oOUMEeSD5fncXYVXHg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_MAZ9AOUwEeSD5fncXYVXHg" target="_Abz4cOUwEeSD5fncXYVXHg" source="_2Y5pEOUvEeSD5fncXYVXHg"/>
@@ -14,15 +14,16 @@
     <edge xmi:type="uml:ControlFlow" xmi:id="_dtz9cOUxEeSD5fncXYVXHg" target="_Rz7lYOUxEeSD5fncXYVXHg" source="_zqDAsOUwEeSD5fncXYVXHg"/>
     <edge xmi:type="uml:ControlFlow" xmi:id="_ek26MOUxEeSD5fncXYVXHg" target="_cXhf8OUxEeSD5fncXYVXHg" source="_Rz7lYOUxEeSD5fncXYVXHg"/>
     <node xmi:type="uml:InitialNode" xmi:id="_a3gegOUMEeSD5fncXYVXHg" name="InitialNode1" outgoing="_HFdF8OUwEeSD5fncXYVXHg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_k757oOUMEeSD5fncXYVXHg" name="Usuario ingresa archivo CSV y selecciona opciones" incoming="_HFdF8OUwEeSD5fncXYVXHg _njFO4OUwEeSD5fncXYVXHg _FkyvAOUxEeSD5fncXYVXHg" outgoing="_IJcSgOUwEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_k757oOUMEeSD5fncXYVXHg" name="Usuario ingresa archivo CSV y selecciona " incoming="_HFdF8OUwEeSD5fncXYVXHg _njFO4OUwEeSD5fncXYVXHg _FkyvAOUxEeSD5fncXYVXHg" outgoing="_IJcSgOUwEeSD5fncXYVXHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_EVU1kOUNEeSD5fncXYVXHg" name="Acción seleccionada es Procesada" incoming="_MvROIOUwEeSD5fncXYVXHg" outgoing="_xvc8QOUwEeSD5fncXYVXHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Eygg0OUNEeSD5fncXYVXHg" name="Notificación de Error" incoming="_NOqf4OUwEeSD5fncXYVXHg" outgoing="_njFO4OUwEeSD5fncXYVXHg"/>
-    <node xmi:type="uml:OpaqueAction" xmi:id="_2Y5pEOUvEeSD5fncXYVXHg" name="Verificar Datos con Base de Datos" incoming="_IJcSgOUwEeSD5fncXYVXHg" outgoing="_MAZ9AOUwEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_2Y5pEOUvEeSD5fncXYVXHg" name="Verificar Datos con Base de Dato" incoming="_IJcSgOUwEeSD5fncXYVXHg" outgoing="_MAZ9AOUwEeSD5fncXYVXHg"/>
     <node xmi:type="uml:MergeNode" xmi:id="_Abz4cOUwEeSD5fncXYVXHg" name="MergeNode1" incoming="_MAZ9AOUwEeSD5fncXYVXHg" outgoing="_MvROIOUwEeSD5fncXYVXHg _NOqf4OUwEeSD5fncXYVXHg"/>
     <node xmi:type="uml:MergeNode" xmi:id="_tJe2sOUwEeSD5fncXYVXHg" name="MergeNode2" incoming="_xvc8QOUwEeSD5fncXYVXHg" outgoing="_51VeQOUwEeSD5fncXYVXHg _7DvLEOUwEeSD5fncXYVXHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_zqDAsOUwEeSD5fncXYVXHg" name="Datos Actualizados en Base de Datos" incoming="_7DvLEOUwEeSD5fncXYVXHg" outgoing="_dtz9cOUxEeSD5fncXYVXHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_1Nko8OUwEeSD5fncXYVXHg" name="Notificación del Error" incoming="_51VeQOUwEeSD5fncXYVXHg" outgoing="_FkyvAOUxEeSD5fncXYVXHg"/>
     <node xmi:type="uml:OpaqueAction" xmi:id="_Rz7lYOUxEeSD5fncXYVXHg" name="Notificación de Operación Exitosa" incoming="_dtz9cOUxEeSD5fncXYVXHg" outgoing="_ek26MOUxEeSD5fncXYVXHg"/>
     <node xmi:type="uml:ActivityFinalNode" xmi:id="_cXhf8OUxEeSD5fncXYVXHg" name="ActivityFinalNode1" incoming="_ek26MOUxEeSD5fncXYVXHg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_mJao4OeDEeSuheWLNFrMfA" name="InitialNode2"/>
   </packagedElement>
 </uml:Model>
