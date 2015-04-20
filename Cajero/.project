@@ -3,6 +3,8 @@
 	<name>Cajero</name>
 	<comment></comment>
 	<projects>
+		<project>CajeroOriginal</project>
+		<project>Chatclient</project>
 	</projects>
 	<buildSpec>
 	</buildSpec>
